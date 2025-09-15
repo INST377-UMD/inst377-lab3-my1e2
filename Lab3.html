@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>INST377 - Lab 3 - Rock Paper Scissors</title>
+        <link rel="stylesheet" href="Lab3-HTMLLayout.css">
+    </head>
+
+    <body>
+        <!-- Header Section -->
+         <header id="bars">
+            <h1>Lab 3 - Rock Paper Scissors</h1>
+         </header>
+
+         <!-- Navigation Section -->
+          <nav id="navi">
+            <ul>
+                <li><a href="https://open.spotify.com">Spotify</a></li>
+                <li><a href="https://elms.umd.edu">ELMS</a></li>
+                <li><a href="https://www.testudo.umd.edu">Testudo</a></li>
+            </ul>
+          </nav>
+
+
+         <!-- Content Section -->
+
+          <div class="main">
+            <div class="area">
+                <h1>Please choose one of the following.</h1>
+                <form name="rockPaperScissors" action="">
+                    <label for="Name">Name:</label>
+                    <input type="text" id="name" required>
+                    <br>
+                    <label for="select">Your Choice:</label>
+                    <select name="choice" id="choice" required>
+                        <option value="">-- Select Option --</option>
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+
+             <aside id="rules">
+                <h1><u>Rules</u></h1>
+                <h1>You must choose Rock, Paper, or Scissors</h1>
+                <h1>The Combos are as follows:</h1>
+
+            <ul>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+            </ul>
+
+
+         </aside>
+    </div>
+         
+         <!-- Footer Section -->
+          <footer id="bars">
+            <p>Rock Paper Scissors Game!</p>
+          </footer>
+
+    </body>
+</html>
